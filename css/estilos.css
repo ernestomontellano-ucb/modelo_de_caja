@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+}
+.contenedor{
+    width:70%;
+    margin:0 auto;
+}
+
+
+header {
+    background: #000;
+    padding: 20px;
+    display: flex;
+    color: #fff;
+}
+header h1{}
+header p{}
+
+section{
+    padding:40px;
+    border:1px solid gray;
+    margin:0 0 20px 0;
+    margin-bottom:20px;
+}
+section:nth-child(2) h2{
+    background-color: blue;
+}
+section:nth-child(2) div p span{
+background-color: orange;
+padding:10px;
+margin:40px;
+border:1px solid red;
+outline:5px solid pink;
+display:inline-block;
+}
+/* ACÁ EJEMPLIFICAMOS LAS PROPIEDADES DEL MODELO DE 
+CAJA */
+section:nth-child(3) div{
+    background-color: #fff;
+    width:400px;
+    padding:40px;
+    margin:40px auto;
+    border-top:10px solid gray;
+    border-right:10px solid lightcoral;
+    border-bottom:10px solid gray;
+    border-left: 10px solid lightcoral;
+    
+    outline:10px solid lightskyblue;
+    border-top-right-radius:60px;
+    box-shadow:20px 20px 0 brown, -20px -20px 0 darkblue;
+    transform:rotate(15deg);
+    
+
+
+}
